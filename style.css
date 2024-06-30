@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.one{
+    padding: 15px;
+    color: rgb(34, 32, 32);
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+.sec1 div{
+    display: flex;
+    align-items: center;
+}
+.sec1 div i{
+    margin-right: 7px;
+    font-size: 1.4rem;
+}
+.sec1 div h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+/* to do */
+.m{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 10px;
+    padding: 17px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -4px 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1), -4px 0 8px rgba(0, 0, 0, 0.1);
+}
+.checkbox-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px; /* Fixed width for the container */
+    height: 24px; /* Fixed height for the container */
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    transition: 0.4s;
+    height: 20px;
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none; /* Remove default styling for Safari */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure the border is included in the element's total size */
+    margin: 0; /* Remove margin */
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(27, 214, 33);
+    position: relative;
+    transition: 0.4s;
+}
+
+input[type="checkbox"]:checked::before {
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 255, 8);
+    border-radius: 50%;
+}
+.m p{
+    opacity: 0.7;
+    font-size: 0.8rem;
+    text-align: right;
+}
+.m .in{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    float: left;
+    padding: 0px 10px;
+}
+.m .in i{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0px 10px;
+}
+.m .in h2{
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 15px;
+}
+.m .in p.plus{
+    font-size: 0.7rem;
+}
+.m .in h2#custom{
+    font-size: 0.8rem;
+}
+.note{
+    padding: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 0, 0.309);
+}
+.note p{
+    margin-left: 30px;
+}
+.note i{
+    font-size: 1.3rem;
+}
+.note-night{
+    background-color: #4032d845;
+    padding: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.note-night p{
+    margin-left: 30px;
+}
+.note-night i{
+    font-size: 1.3rem;
+}
+.buttons{
+    text-align: center;
+    padding: 16px 18px;
+    background-color: rgba(255, 0, 0, 0.148);
+    color: red;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#c{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#c span{
+    font-weight: 750;
+}
